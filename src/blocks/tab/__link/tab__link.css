@@ -1,4 +1,14 @@
 .tab__link {
   color: #607b96;
   text-decoration: none;
+  border: one;
+  border-right: 1px solid #1e2d3d;
+}
+
+.tab__link:last-of-type {
+  margin-left: auto;
+}
+
+.tab__link:active {
+  border-bottom: none;
 }
