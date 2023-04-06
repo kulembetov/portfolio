@@ -1,0 +1,20 @@
+.greeting__who {
+  color: #E5E9F0;
+  font-weight: 400;
+  font-size: 18px;
+  animation:
+  typing 2.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}

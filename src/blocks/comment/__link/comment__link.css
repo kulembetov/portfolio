@@ -1,0 +1,22 @@
+.comment__link {
+  color: #E99287;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  animation:
+  typing 2.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+}

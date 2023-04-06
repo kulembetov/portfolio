@@ -1,0 +1,15 @@
+.tab {
+  color: #607b96;
+  background-color: transparent;
+  padding: 17px 31px;
+  cursor: pointer;
+  border: none;
+  border-right: 1px solid #1e2d3d;
+  border-bottom: 3px solid transparent;
+  outline: none;
+}
+
+.tab:last-child {
+  margin-left: auto;
+  border-right: none;
+}

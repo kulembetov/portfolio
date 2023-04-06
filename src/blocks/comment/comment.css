@@ -1,0 +1,6 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 80px;
+}
