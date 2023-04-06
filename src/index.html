@@ -1,88 +1,113 @@
 <!DOCTYPE html>
 <html class="root" lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="<%=require('./images/logo.svg')%>"">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="<%=require('./images/logo.svg')%>"">
     <title>Portfolio</title>
   </head>
   <body class=" page">
-    <div class="terminal">
-      <header class="header">
-        <ul class="tabs">
-          <a class="tab__link">
-            <button class="tab" id="section" disabled>
-              <li>_kulembetov</li>
-            </button>
-          </a>
-          <a class="tab__link" href="#hello">
-            <button class="tab" id="section">
-              <li>_hello</li>
-            </button>
-          </a>
-          <a class="tab__link">
-            <button class="tab" id="section">
-              <li>_about-me</li>
-            </button>
-          </a>
-          <a class="tab__link">
-            <button class="tab" id="section">
-              <li>_projects</li>
-            </button>
-          </a>
-          <a class="tab__link">
-            <button class="tab" id="link">
-              <li>_contact-me</li>
-            </button>
-          </a>
-        </ul>
-      </header>
-      <main class="content">
-        <section class="hello" id="hello">
-          <div class="intro">
-            <div class="greeting">
-              <h3 class="greeting__who">Hi all. I am</h3>
-              <h1 class="greeting__name">Artur Kulembetov</h1>
-              <h2 class="greeting__job"> Front-end developer</h2>
-              <div class="comment">
-                <h3 class="comment__text">// complete the game to continue</h3>
-                <h3 class="comment__text">// you can also see it on my Github page</h3>
-                <h3 class="comment__const">const <span class="comment__github">githubLink</span> = <a
+  <div class="terminal">
+    <header class="header">
+      <ul class="tabs">
+        <a class="tab__link">
+          <button class="tab" id="section" disabled>
+            <li class="tab__item">_kulembetov</li>
+          </button>
+        </a>
+        <a class="tab__link" href="#hello">
+          <button class="tab" id="section">
+            <li class="tab__item">_hello</li>
+          </button>
+        </a>
+        <a class="tab__link">
+          <button class="tab" id="section">
+            <li class="tab__item">_about-me</li>
+          </button>
+        </a>
+        <a class="tab__link">
+          <button class="tab" id="section">
+            <li class="tab__item">_projects</li>
+          </button>
+        </a>
+        <a class="tab__link">
+          <button class="tab" id="link">
+            <li class="tab__item">_contact-me</li>
+          </button>
+        </a>
+      </ul>
+    </header>
+    <main class="content">
+      <section class="hello" id="hello">
+        <div class="intro">
+          <div class="greeting">
+            <h3 class="greeting__who">Hi all. I am</h3>
+            <h1 class="greeting__name">Artur Kulembetov</h1>
+            <h2 class="greeting__job"> Front-end developer</h2>
+            <div class="comment">
+              <h3 class="comment__text">// complete the game to continue</h3>
+              <h3 class="comment__text">// you can also see it on my Github page</h3>
+              <h3 class="comment__const">const <span class="comment__github">githubLink</span> = <a
                   class="comment__link" href="https://github.com/kulembetov"
                   target="_blank">“https://github.com/kulembetov“</a></h3>
-              </div>
-            </div>
-            <div class="game">
-              <img src="<%=require('./images/snake-game.png')%>" alt="game">
             </div>
           </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <ul class="tabs">
-          <button class="tab" id="link" disabled>
-            <a>
-              <li>find me in:</li>
-            </a>
+          <div class="game">
+            <div class="game__box">
+              <div class="game__content">
+                <div class="game__bolt"></div>
+                <div class="game__bolt"></div>
+                <div class="game__bolt"></div>
+                <div class="game__bolt"></div>
+                <div class="game__screen">
+                  <img class="game__food" src="<%=require('./images/food.svg')%>" alt="snake food">
+                  <img class="game__snake" src="<%=require('./images/snake.svg')%>" alt="snake">
+                  <button class="game__button">start-game</button>
+                </div>
+                <div class="game__hint">
+                  <h3 class="game__text">// use keyboard</h3>
+                  <h3 class="game__text">// arrows to play</h3>
+                  <div class="game__arrows">
+                    <div class="game__arrow"></div>
+                    <div class="game__arrow"></div>
+                    <div class="game__arrow"></div>
+                    <div class="game__arrow"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <img src="<%=require('./images/snake-game.png')%>" alt="game"> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="tabs">
+        <button class="tab" id="link" disabled>
+          <a>
+            <li class="tab__item">find me in:</li>
+          </a>
+        </button>
+        <a class="tab__link" href="https://twitter.com/" target="_blank">
+          <button class="tab" id="link">
+            <li class="tab__item"><img src="<%=require('./images/twitter.svg')%>" alt="logo twitter"></li>
           </button>
-          <a class="tab__link" href="https://twitter.com/" target="_blank">
+        </a>
+        <a class="tab__link" href="https://www.facebook.com/" target="_blank">
           <button class="tab" id="link">
-              <li><img src="<%=require('./images/twitter.svg')%>" alt="logo twitter"></li>
-            </button>
-            </a>
-            <a class="tab__link" href="https://www.facebook.com/" target="_blank">
+            <li class="tab__item"><img src="<%=require('./images/facebook.svg')%>" alt="logo twitter"></li>
+          </button>
+        </a>
+        <a class="tab__link" href="https://github.com/" target="_blank">
           <button class="tab" id="link">
-              <li><img src="<%=require('./images/facebook.svg')%>" alt="logo twitter"></li>
-            </button>
-          </a>
-          <a class="tab__link" href="https://github.com/" target="_blank">
-          <button class="tab" id="link">
-              <li><img src="<%=require('./images/github.svg')%>" alt="logo github"></li>
-            </button>
-          </a>
-        </ul>
-      </footer>
-    </div>
+            <li class="tab__item">@kulembetov<img src="<%=require('./images/github.svg')%>" alt="logo github"></li>
+          </button>
+        </a>
+      </ul>
+    </footer>
+  </div>
   </body>
+
 </html>

@@ -1,5 +1,6 @@
 import '../src/index.css';
 const section = document.querySelectorAll('#section');
+const link = document.querySelectorAll('#link');
 
 section.forEach((item) => {
   item.addEventListener('click', () => {
@@ -8,8 +9,6 @@ section.forEach((item) => {
     item.classList.toggle('tab_active');
   });
 });
-
-const link = document.querySelectorAll('#link');
 
 link.forEach((item) => {
   item.addEventListener('click', () => {
@@ -21,5 +20,8 @@ link.forEach((item) => {
   });
   item.addEventListener('mousedown', () => {
     item.classList.add('tab_active');
+  });
+  item.addEventListener('mouseleave', () => {
+    item.classList.remove('tab_active');
   });
 });

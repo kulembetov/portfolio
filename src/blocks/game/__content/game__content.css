@@ -1,0 +1,5 @@
+.game__content {
+  display: flex;
+  gap: 25px;
+  padding: 35px 0 35px 35px;
+}

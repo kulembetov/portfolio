@@ -1,0 +1,7 @@
+.game__snake {
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 65px;
+  position: relative;
+  margin: 0 auto;
+}

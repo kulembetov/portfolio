@@ -1,0 +1,28 @@
+.game__bolt {
+  width: 13px;
+  height: 13px;
+  background: radial-gradient(73.08% 73.08% at 50% 26.92%, #196C6A 15.1%, #114B4A 100%), url('../../../images/cross.svg') no-repeat center;
+  box-shadow: 2px 2px 4px #0D4341, inset 0px 1px 2px #1A8277;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.game__bolt:nth-child(1) {
+  top: 10px;
+  left: 10px;
+}
+
+.game__bolt:nth-child(2) {
+  top: 10px;
+  right: 10px;
+}
+
+.game__bolt:nth-child(3) {
+  bottom: 10px;
+  left: 10px;
+}
+
+.game__bolt:nth-child(4) {
+  bottom: 10px;
+  right: 10px;
+}

@@ -1,0 +1,8 @@
+.game__arrows {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  padding-top: 16px;
+
+}
+
