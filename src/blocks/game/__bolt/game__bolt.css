@@ -5,6 +5,12 @@
   box-shadow: 2px 2px 4px #0D4341, inset 0px 1px 2px #1A8277;
   border-radius: 50%;
   position: absolute;
+  cursor: pointer;
+}
+
+.game__bolt:hover {
+  transition: .1s ease;
+  transform: scale(1.1);
 }
 
 .game__bolt:nth-child(1) {

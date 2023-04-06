@@ -3,3 +3,87 @@
   top: 50px;
   left: 85px;
 }
+
+.game__food:nth-child(1) {
+  position: absolute;
+  top: 50px;
+  left: 85px;
+}
+
+.game__food:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.game__food:nth-child(3) {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+.game__food:nth-child(4) {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+.game__food:nth-child(5) {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.game__food:nth-child(6) {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+
+.game__food:nth-child(7) {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+
+.game__food:nth-child(8) {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.game__food:nth-child(9) {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.game__food:nth-child(10) {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+
+.game__food:nth-child(11) {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
+
+.game__food:nth-child(12) {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+.game__food:nth-child(13) {
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+
+.game__food:nth-child(14) {
+  position: absolute;
+  top: 80px;
+  left: 160px;
+}

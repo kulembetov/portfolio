@@ -1,0 +1,13 @@
+.game__button-start {
+  font-size: 14px;
+  background: #FEA55F;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 14px;
+  margin: 0 auto;
+}

@@ -23,13 +23,15 @@
 @import url(./blocks/game/__content/game__content.css);
 @import url(./blocks/game/__bolt/game__bolt.css);
 @import url(./blocks/game/__screen/game__screen.css);
-@import url(./blocks/game/__button/game__button.css);
+@import url(./blocks/game/__button-start/game__button-start.css);
+@import url(./blocks/game/__button-skip/game__button-skip.css);
 @import url(./blocks/game/__hint/game__hint.css);
 @import url(./blocks/game/__text/game__text.css);
 @import url(./blocks/game/__arrows/game__arrows.css);
 @import url(./blocks/game/__arrow/game__arrow.css);
 @import url(./blocks/game/__snake/game__snake.css);
 @import url(./blocks/game/__food/game__food.css);
+@import url(./blocks/game/__lives/game__lives.css);
 @import url(./blocks/footer/footer.css);
 
 

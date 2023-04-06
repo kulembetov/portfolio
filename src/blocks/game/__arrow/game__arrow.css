@@ -1,24 +1,35 @@
 .game__arrow {
   width: 50px;
   height: 30px;
-  background: #010C15 url(../../../images/arrow.svg) no-repeat center;
-  border: 1px solid #1E2D3D;
+  background: #010c15 url(../../../images/arrow.svg) no-repeat center;
+  border: 1px solid #1e2d3d;
   border-radius: 8px;
+  box-shadow: 0 3px #24856d;
+  cursor: pointer;
+}
+
+.game__arrow:active {
+  box-shadow: none;
+  transform: translateY(4px);
 }
 
 .game__arrow:nth-child(1) {
-  grid-row: 1;
-  justify-self: center;
+  background: #010c15 url(../../../images/left.svg) no-repeat center;
+  grid-row: 3;
 }
 
-.game__arrow:nth-child(3) {
+.game__arrow:nth-child(2) {
+  background: #010c15 url(../../../images/up.svg) no-repeat center;
   grid-column: 2;
 }
 
 .game__arrow:nth-child(3) {
+  background: #010c15 url(../../../images/down.svg) no-repeat center;
   grid-row: 3;
 }
 
 .game__arrow:nth-child(4) {
+  background: #010c15 url(../../../images/right.svg) no-repeat center;
   grid-column: 4;
+  grid-row: 3;
 }

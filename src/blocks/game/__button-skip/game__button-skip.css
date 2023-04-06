@@ -1,7 +1,8 @@
-.game__button {
+.game__button-skip {
+  color: #FFF;
   font-size: 14px;
-  background: #FEA55F;
-  border: none;
+  background: transparent;
+  border: 1px solid #FFFFFF;
   border-radius: 8px;
   display: flex;
   gap: 10px;
@@ -10,4 +11,5 @@
   cursor: pointer;
   padding: 10px 14px;
   margin: 0 auto;
+  margin-top: 170px;
 }
